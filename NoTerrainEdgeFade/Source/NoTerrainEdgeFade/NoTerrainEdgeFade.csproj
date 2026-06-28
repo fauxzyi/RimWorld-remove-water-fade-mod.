@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>NoTerrainEdgeFade</AssemblyName>
+    <RootNamespace>NoTerrainEdgeFade</RootNamespace>
+    <Nullable>disable</Nullable>
+
+    <!-- EDIT THIS to your actual RimWorld install folder -->
+    <RimWorldInstallDir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld</RimWorldInstallDir>
+    <RimWorldManagedDir>$(RimWorldInstallDir)\RimWorldWin64_Data\Managed</RimWorldManagedDir>
+
+    <!-- EDIT THIS to wherever the Harmony mod is installed under your Mods folder -->
+    <HarmonyAssembliesDir>C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2009463077\Current\Assemblies</HarmonyAssembliesDir>
+
+    <!-- Don't copy referenced DLLs into the output folder; we only want our own assembly -->
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\..\1.6\Assemblies\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldManagedDir)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(RimWorldManagedDir)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(HarmonyAssembliesDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+C:\Users\joepo\OneDrive\Desktop\NoTerrainEdgeFade\1.6\Assemblies\NoTerrainEdgeFade.dll
+C:\Users\joepo\OneDrive\Desktop\NoTerrainEdgeFade\1.6\Assemblies\NoTerrainEdgeFade.pdb
+C:\Users\joepo\OneDrive\Desktop\NoTerrainEdgeFade\Source\NoTerrainEdgeFade\obj\Release\NoTerrainEdgeFade.csproj.AssemblyReference.cache
+C:\Users\joepo\OneDrive\Desktop\NoTerrainEdgeFade\Source\NoTerrainEdgeFade\obj\Release\NoTerrainEdgeFade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joepo\OneDrive\Desktop\NoTerrainEdgeFade\Source\NoTerrainEdgeFade\obj\Release\NoTerrainEdgeFade.AssemblyInfoInputs.cache
+C:\Users\joepo\OneDrive\Desktop\NoTerrainEdgeFade\Source\NoTerrainEdgeFade\obj\Release\NoTerrainEdgeFade.AssemblyInfo.cs
+C:\Users\joepo\OneDrive\Desktop\NoTerrainEdgeFade\Source\NoTerrainEdgeFade\obj\Release\NoTerrainEdgeFade.csproj.CoreCompileInputs.cache
+C:\Users\joepo\OneDrive\Desktop\NoTerrainEdgeFade\Source\NoTerrainEdgeFade\obj\Release\NoTerrainEdgeFade.dll
+C:\Users\joepo\OneDrive\Desktop\NoTerrainEdgeFade\Source\NoTerrainEdgeFade\obj\Release\NoTerrainEdgeFade.pdb
