@@ -1,1 +1,4 @@
 Removes the soft "fade" blending mesh that gets drawn over man-made floors (edgeType = Hard) whenever they border a higher-precedence terrain such as water, lava, or moving water. Floors keep a crisp, defined edge instead of fading into adjacent terrain. Natural-terrain-to-natural-terrain fades (soil/sand/gravel/etc.) are untouched, since those use Fade/FadeRough edge types and are meant to blend.
+
+Steam Workshop Link:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3753895045
